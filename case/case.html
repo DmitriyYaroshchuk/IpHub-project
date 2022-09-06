@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick/slick.css"/>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="head">
+                <div class="container">
+                    <div class="head__container">
+                        <div class="logo">
+                            <a class="logo__link" href="case.html">
+                                <img src="../images/logo.svg" alt="logo">
+                            </a>
+                        </div>
+                        <div class="head__contacts">
+                            <div class="head__phone">+7 (888) 888 88 88</div>
+                            <button class="head__button" id="modalApplicationButton">Получить консультацию</button>
+                        </div>
+                        <nav class="head__nav">
+                            <ul class="head__list">
+                                <li class="head__item">
+                                    <a class="head__link-nav" href="../services/services.html"></a>
+                                </li>
+                                <li class="head__item">
+                                    <a class="head__link-nav" href="../cases/cases.html">Кейсы</a>
+                                </li>
+                                <li class="head__item">
+                                    <a class="head__link-nav" href="../faq/faq.html">FAQ</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="modal-button" id="modalButton">
+                            <img src="../images/modal-button.svg" alt="menu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="top-block">
+                <div class="history">
+                    <div class="container">
+                        <div class="history__container">
+                            <a class="history__button" href="#">
+                                <img src="image/button.svg" alt="button">
+                            </a>
+                            <a class="history__main" href="../index.html">Главная</a>
+                            <a class="history__all" href="../cases/cases.html">Все кейсы</a>
+                            <a class="history__reg history__active" href="case.html">Регистрация товарного знака для бренда CIRKLE</a>
+                            <a class="history__reg-semimobile history__active" href="case.html">Регистрация товарн...</a>
+                            <a class="history__reg-mobile history__active" href="case.html">Регистрац...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cirkle">
+                    <div class="container">
+                        <div class="cirkle__container">
+                            <div class="cirkle__content">
+                                <div class="cirkle__sign">ТОВАРНЫЙ ЗНАК</div>
+                                <div class="cirkle__title">Регистрация товарного знака для компании CIRKLE</div>
+                                <div class="cirkle__text">Был зарегистрирован товарный знак в отношении косметических товаров.</div>
+                            </div>
+                            <div class="cirkle__box">
+                                <svg class="cirkle__swg" width="196" height="39" viewBox="0 0 196 39" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity=".6" fill-rule="evenodd" clip-rule="evenodd" d="M15.583.152c-1.79.335-5.529 1.812-7.04 2.78C4.594 5.462 1.267 10.62.297 15.713c-.584 3.071-.275 8.49.646 11.316 1.525 4.68 5.66 9.198 9.93 10.848 4.84 1.87 11.915 1.35 15.763-1.159 3.224-2.102 6.849-6.665 6.06-7.63-.324-.396-.952.085-2.905 2.225-1.393 1.527-3.35 3.191-4.439 3.774-1.725.925-2.36 1.041-5.572 1.03-4.265-.014-6.19-.722-8.93-3.286-3.017-2.823-4.43-7.008-4.418-13.084.016-8.23 2.819-14.145 7.749-16.355 5.216-2.338 11.26-.694 14.351 3.904.652.97 1.506 2.62 1.897 3.665.686 1.833 1.292 2.505 1.674 1.855.1-.172-.012-3.098-.25-6.504-.348-4.958-.549-6.215-1.007-6.303-.328-.063-.784.376-1.066 1.026-.272.625-.744 1.234-1.05 1.353-.306.12-1.843-.307-3.415-.946C22.495.296 17.995-.3 15.583.152zm20.605 1.307c0 .614.25.782 1.164.782 1.41 0 3.235.903 3.56 1.76.13.345.236 7.418.236 15.718v15.09l-.936.951c-.686.697-1.35.951-2.48.951-1.295 0-1.544.126-1.544.782 0 .764.194.78 7.917.678 6.738-.089 7.918-.191 7.918-.685 0-.404-.544-.645-1.789-.79-.984-.115-2.143-.534-2.575-.931-.77-.707-.787-1.061-.787-16.112 0-17.628-.146-16.847 3.243-17.338 1.313-.19 1.908-.457 1.908-.853 0-.489-1.21-.592-7.918-.681-7.723-.102-7.917-.086-7.917.678zm17.83-.275c-.32.844.026 1.057 1.711 1.057 1.063 0 1.744.268 2.416.95l.937.951v15.264c0 14.856-.02 15.291-.79 16.285-.637.82-1.114 1.02-2.44 1.02-1.533 0-2.467.672-1.831 1.318.298.302 15.548.302 15.846 0 .636-.646-.299-1.318-1.83-1.318-1.328 0-1.804-.2-2.44-1.02-.734-.946-.791-1.527-.791-7.94v-6.92h3.386l6.204 8.715 6.203 8.714h12.836c7.059 0 12.938-.104 13.063-.231.607-.617-.29-1.318-1.685-1.318-1.087 0-1.762-.263-2.44-.95-.93-.944-.936-1.007-.936-8.42v-7.47l6.88 6.968c3.785 3.832 6.98 7.361 7.102 7.844.281 1.114-.396 1.948-1.705 2.102-.601.07-1.021.359-1.021.7 0 .498 1.289.597 8.901.686 8.12.095 8.89.047 8.776-.539-.077-.398-.788-.814-1.869-1.092-3.225-.83-5.432-2.583-13.632-10.827l-8.127-8.17 6.791-6.806c6.657-6.672 9.056-8.496 11.175-8.496.516 0 .768-.257.768-.784 0-.76-.195-.78-6.773-.677-5.72.09-6.773.196-6.773.686 0 .37.441.625 1.212.7.666.066 1.415.369 1.664.673.988 1.209-.066 2.687-6.406 8.988-3.483 3.461-6.475 6.293-6.648 6.293-.362 0-.425-12.518-.071-13.861.28-1.062 1.953-2.018 3.53-2.018 1.257 0 1.67-.367 1.229-1.092-.216-.354-2.213-.448-7.888-.369-6.639.092-7.614.184-7.717.731-.091.482.29.672 1.66.828 1.101.127 2.087.519 2.593 1.032.805.817.816 1.026.816 15.631 0 8.143-.123 15.24-.272 15.773-.396 1.41-1.556 1.96-4.23 2.005-2.847.047-5.712-1.072-7.428-2.903-.636-.678-3.132-4.011-5.546-7.407l-4.389-6.176 2.069-.853c2.992-1.235 4.68-2.697 5.715-4.955 1.802-3.928.709-8.666-2.552-11.064-2.88-2.117-4.517-2.399-15.264-2.626-8.549-.18-9.793-.132-9.99.388zm76.8.275c0 .656.249.782 1.543.782 1.13 0 1.795.254 2.48.95l.937.951v15.264c0 14.856-.021 15.291-.791 16.285-.641.828-1.11 1.02-2.48 1.02-1.435 0-1.689.117-1.689.775 0 .76.254.774 14.245.774h14.245l1.437-4.715c.79-2.593 1.524-4.946 1.63-5.228.123-.323-.094-.514-.584-.514-.466 0-.885.34-1.044.85-.643 2.058-2.604 4.628-4.305 5.642-1.687 1.007-2.066 1.067-7.555 1.198-5.462.13-5.824.092-6.583-.678-.787-.8-.802-1.095-.802-15.12 0-8.538.153-14.713.379-15.317.443-1.185 2.407-2.137 4.406-2.137 1.105 0 1.35-.134 1.247-.678-.117-.617-.874-.687-8.422-.782-8.101-.102-8.294-.086-8.294.678zM164.65.95c-.704.715-.104 1.207 1.682 1.381 3.4.332 3.215-.656 3.215 17.145 0 17.758.169 16.83-3.139 17.217-1.32.154-1.847.396-1.94.89-.12.635.757.677 14.15.677h14.277l1.457-4.357a1117.55 1117.55 0 0 1 1.626-4.841c.098-.28-.141-.484-.564-.484-.462 0-1.06.59-1.614 1.59-.484.875-1.4 2.19-2.035 2.925-2.027 2.343-2.899 2.603-9.3 2.772-7.901.208-7.434.769-7.298-8.748l.104-7.254 3.052-.123c4.174-.168 7.653.247 8.597 1.025.431.356 1.003 1.519 1.27 2.584.299 1.195.695 1.937 1.033 1.937.45 0 .566-1.16.652-6.488.099-6.148.067-6.487-.619-6.487-.551 0-.783.375-.972 1.575-.14.89-.652 1.986-1.176 2.518-.898.911-1.108.942-6.487.942h-5.558l.103-7.068.105-7.069 4.066-.112c2.236-.062 5.411.058 7.056.265 3.455.435 4.414 1.206 5.139 4.129.314 1.263.616 1.721 1.135 1.721.655 0 .692-.279.495-3.776-.117-2.076-.278-3.994-.359-4.26-.114-.376-3.255-.484-14.023-.484-7.631 0-13.99.116-14.13.258zM72.434 4.121c2.103 1.146 3.518 3.21 3.73 5.442.265 2.804-.17 4.515-1.552 6.113-1.592 1.84-3.859 2.825-7.147 3.105l-2.66.226v-7.576c0-5.698.12-7.624.478-7.772.262-.107 1.681-.209 3.154-.225 1.924-.023 3.048.171 3.997.687z" fill="#fff"/></svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="container">
+                        <div class="content__container">
+                            <div class="content__box">
+                                <img class="content__photo" src="image/content__image-perfume.jpg" width="365" height="461" alt="perfume">
+                                <img class="content__photo content__photo-desktop" src="image/content__image-perfume-desktop.jpg" width="270" height="340" alt="perfume">
+                            </div>
+                            <div class="content__wrapper">
+                                <div class="content-company">
+                                    <div class="content-company__title title">О компании</div>
+                                    <div class="content-company__text">CIRKLE – магазин косметических товаров и производитель продукции.</div>
+                                    <div class="content-company__box">
+                                        <img class="content-company__photo" src="image/content-company__cirkle.jpg" width="701" height="495" alt="cirkle">
+                                        <img class="content-company__photo content-company__photo-desktop" src="image/content-company__cirkle-desktop.jpg" width="633" height="495" alt="cirkle">
+                                        <img class="content-company__photo content-company__photo-tablet" src="image/content-company__cirkle-tablet.jpg" width="728" height="495" alt="cirkle">
+                                        <img class="content-company__photo content-company__photo-semimobile" src="image/content-company__cirkle-semimobile.jpg" width="439" height="299" alt="cirkle">
+                                        <img class="content-company__photo content-company__photo-mobile" src="image/content-company__cirkle-mobile.jpg" width="320" height="218" alt="cirkle">
+                                    </div>
+                                </div>
+                                <div class="content-task">
+                                    <div class="content-task__title title">Задачи</div>
+                                    <ul class="content-task__list">
+                                        <li class="content-task__item">1. Подготовка и подача заявки для регистрации товарного знака.
+                                        </li>
+                                        <li class="content-task__item">2. Подготовка ответа на уведомление для снятия доводов для отказа в регистрации товарного знака.</li>
+                                        <li class="content-task__item">3. Получение Свидетельства на товарный.</li>
+                                    </ul>
+                                    <div class="content-task__slider">
+                                        <div class="content-task__box">
+                                            <img class="content-task__photo" src="image/content-task__image-tree.jpg" width="340" height="340" alt="tree">
+                                            <img class="content-task__photo content-task__photo-desktop" src="image/content-task__image-tree-desktop.jpg" width="306" height="306" alt="tree">
+                                            <img class="content-task__photo content-task__photo-tablet" src="image/content-task__image-tree-tablet.jpg" width="354" height="354" alt="tree">
+                                            <img class="content-task__photo content-task__photo-semimobile" src="image/content-task__image-tree-semimobile.jpg" width="210" height="210" alt="tree">
+                                            <img class="content-task__photo content-task__photo-mobile" src="image/content-task__image-tree-mobile.jpg" width="320" height="320" alt="tree">
+                                        </div>
+                                        <div class="content-task__box">
+                                            <img class="content-task__photo" src="image/content-task__image-makeup.jpg" width="340" height="340" alt="make-up">
+                                            <img class="content-task__photo content-task__photo-desktop" src="image/content-task__image-makeup-desktop.jpg" width="306" height="306" alt="make-up">
+                                            <img class="content-task__photo content-task__photo-tablet" src="image/content-task__image-makeup-tablet.jpg" width="354" height="354" alt="make-up">
+                                            <img class="content-task__photo content-task__photo-semimobile" src="image/content-task__image-makeup-semimobile.jpg" width="210" height="210" alt="make-up">
+                                            <img class="content-task__photo content-task__photo-mobile" src="image/content-task__image-tree-mobile.jpg" width="320" height="320" alt="tree">
+                                        </div>
+                                        <div class="content-task__box">
+                                            <img class="content-task__photo" src="image/content-task__image-tree.jpg" width="340" height="340" alt="tree">
+                                            <img class="content-task__photo content-task__photo-desktop" src="image/content-task__image-tree-desktop.jpg" width="306" height="306" alt="tree">
+                                            <img class="content-task__photo content-task__photo-tablet" src="image/content-task__image-tree-tablet.jpg" width="354" height="354" alt="tree">
+                                            <img class="content-task__photo content-task__photo-semimobile" src="image/content-task__image-tree-semimobile.jpg" width="210" height="210" alt="tree">
+                                            <img class="content-task__photo content-task__photo-mobile" src="image/content-task__image-tree-mobile.jpg" width="320" height="320" alt="tree">
+                                        </div>
+                                        <div class="content-task__box">
+                                            <img class="content-task__photo" src="image/content-task__image-makeup.jpg" width="340" height="340" alt="make-up">
+                                            <img class="content-task__photo content-task__photo-desktop" src="image/content-task__image-makeup-desktop.jpg" width="306" height="306" alt="make-up">
+                                            <img class="content-task__photo content-task__photo-tablet" src="image/content-task__image-makeup-tablet.jpg" width="354" height="354" alt="make-up">
+                                            <img class="content-task__photo content-task__photo-semimobile" src="image/content-task__image-makeup-semimobile.jpg" width="210" height="210" alt="make-up">
+                                            <img class="content-task__photo content-task__photo-mobile" src="image/content-task__image-tree-mobile.jpg" width="320" height="320" alt="tree">
+                                        </div>
+                                    </div>
+                                    <div class="content-task__block">
+                                        <img class="content__photo content__photo-middle" src="image/content__image-perfume-tablet.jpg" width="354" height="446" alt="perfume">
+                                        <img class="content__photo content__photo-semimobile" src="image/content__image-perfume-semimobile.jpg" width="209" height="264" alt="perfume">
+                                        <img class="content__photo content__photo-mobile" src="image/content__image-perfume-mobile.jpg" width="320" height="404" alt="perfume">
+                                    </div>
+                                </div>
+                                <div class="content-decision">
+                                    <div class="content-decision__title title">Решение</div>
+                                    <div class="content-decision__text">По оценке экспертизы выявлено основание для отказа, так как были противопоставлены 7 товарных знаков, которые были признаны сходными до степени смешения.</div>
+                                    <div class="content-decision__text content-decision__text_last">
+                                        Нами было доказано, что у потребителя не возникнет смешения брендов, так как деятельность заявителя и правообладателей знаков не пересекается и относится к другим сферам.
+                                    </div>
+                                    <div class="content-decision__text content-decision__text_last">Товарный знак был зарегистрированы в отношении косметических товаров и услуг магазина косметики.</div>
+                                </div>
+                                <div class="content-result">
+                                    <div class="content-result__title title">Результат</div>
+                                    <ul class="content-result__list">
+                                        <li class="content-result__item">1. Успешная регистрация товарного знака за 10 месяцев.</li>
+                                        <li class="content-result__item">2. Номер заявки — 2020702165.</li>
+                                        <li class="content-result__item">3. Номер государственной регистрации — 787439.</li>
+                                    </ul>
+                                    <div class="content-result__slider">
+                                        <div class="content-result__box">
+                                            <img class="content-result__photo" src="image/content-result__image-patent.jpg" width="340" height="471" alt="patent">
+                                            <img class="content-result__photo content-result__photo-desktop" src="image/content-result__image-patent-desktop.jpg" width="306" height="425" alt="patent">
+                                            <img class="content-result__photo content-result__photo-tablet" src="image/content-result__image-patent-tablet.jpg" width="354" height="492" alt="patent">
+                                            <img class="content-result__photo content-result__photo-semimobile" src="image/content-result__image-patent-semimobile.jpg" width="209" height="290" alt="patent">
+                                            <img class="content-result__photo content-result__photo-mobile" src="image/content-result__image-patent-mobile.jpg" width="320" height="445" alt="patent">
+                                        </div>
+                                        <div class="content-result__box">
+                                            <img class="content-result__photo" src="image/content-result__image-patent.jpg" width="340" height="471" alt="patent">
+                                            <img class="content-result__photo content-result__photo-desktop" src="image/content-result__image-patent-desktop.jpg" width="306" height="425" alt="patent">
+                                            <img class="content-result__photo content-result__photo-tablet" src="image/content-result__image-patent-tablet.jpg" width="354" height="492" alt="patent">
+                                            <img class="content-result__photo content-result__photo-semimobile" src="image/content-result__image-patent-semimobile.jpg" width="209" height="290" alt="patent">
+                                            <img class="content-result__photo content-result__photo-mobile" src="image/content-result__image-patent-mobile.jpg" width="320" height="445" alt="patent">
+                                        </div>
+                                        <div class="content-result__box">
+                                            <img class="content-result__photo" src="image/content-result__image-patent.jpg" width="340" height="471" alt="patent">
+                                            <img class="content-result__photo content-result__photo-desktop" src="image/content-result__image-patent-desktop.jpg" width="306" height="425" alt="patent">
+                                            <img class="content-result__photo content-result__photo-tablet" src="image/content-result__image-patent-tablet.jpg" width="354" height="492" alt="patent">
+                                            <img class="content-result__photo content-result__photo-semimobile" src="image/content-result__image-patent-semimobile.jpg" width="209" height="290" alt="patent">
+                                            <img class="content-result__photo content-result__photo-mobile" src="image/content-result__image-patent-mobile.jpg" width="320" height="445" alt="patent">
+                                        </div>
+                                        <div class="content-result__box">
+                                            <img class="content-result__photo" src="image/content-result__image-patent.jpg" width="340" height="471" alt="patent">
+                                            <img class="content-result__photo content-result__photo-desktop" src="image/content-result__image-patent-desktop.jpg" width="306" height="425" alt="patent">
+                                            <img class="content-result__photo content-result__photo-tablet" src="image/content-result__image-patent-tablet.jpg" width="354" height="492" alt="patent">
+                                            <img class="content-result__photo content-result__photo-semimobile" src="image/content-result__image-patent-semimobile.jpg" width="209" height="290" alt="patent">
+                                            <img class="content-result__photo content-result__photo-mobile" src="image/content-result__image-patent-mobile.jpg" width="320" height="445" alt="patent">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cases">
+                    <div class="container container__specific">
+                        <div class="cases__container">
+                            <div class="cases__wrapper-introduction">
+                                <div class="cases__title title">Схожие кейсы</div>
+                                <a href="../cases/cases.html" class="cases__button button">Все кейсы</a>
+                            </div>
+                            <div class="cases__wrapper-slider">
+                                <div class="cases__box">
+                                    <div class="cases__logo">
+                                        <svg class="cases__swg" width="196" height="39" viewBox="0 0 196 39" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="cases__path-logo" opacity="1" fill-rule="evenodd" clip-rule="evenodd" d="M15.583.152c-1.79.335-5.529 1.812-7.04 2.78C4.594 5.462 1.267 10.62.297 15.713c-.584 3.071-.275 8.49.646 11.316 1.525 4.68 5.66 9.198 9.93 10.848 4.84 1.87 11.915 1.35 15.763-1.159 3.224-2.102 6.849-6.665 6.06-7.63-.324-.396-.952.085-2.905 2.225-1.393 1.527-3.35 3.191-4.439 3.774-1.725.925-2.36 1.041-5.572 1.03-4.265-.014-6.19-.722-8.93-3.286-3.017-2.823-4.43-7.008-4.418-13.084.016-8.23 2.819-14.145 7.749-16.355 5.216-2.338 11.26-.694 14.351 3.904.652.97 1.506 2.62 1.897 3.665.686 1.833 1.292 2.505 1.674 1.855.1-.172-.012-3.098-.25-6.504-.348-4.958-.549-6.215-1.007-6.303-.328-.063-.784.376-1.066 1.026-.272.625-.744 1.234-1.05 1.353-.306.12-1.843-.307-3.415-.946C22.495.296 17.995-.3 15.583.152zm20.605 1.307c0 .614.25.782 1.164.782 1.41 0 3.235.903 3.56 1.76.13.345.236 7.418.236 15.718v15.09l-.936.951c-.686.697-1.35.951-2.48.951-1.295 0-1.544.126-1.544.782 0 .764.194.78 7.917.678 6.738-.089 7.918-.191 7.918-.685 0-.404-.544-.645-1.789-.79-.984-.115-2.143-.534-2.575-.931-.77-.707-.787-1.061-.787-16.112 0-17.628-.146-16.847 3.243-17.338 1.313-.19 1.908-.457 1.908-.853 0-.489-1.21-.592-7.918-.681-7.723-.102-7.917-.086-7.917.678zm17.83-.275c-.32.844.026 1.057 1.711 1.057 1.063 0 1.744.268 2.416.95l.937.951v15.264c0 14.856-.02 15.291-.79 16.285-.637.82-1.114 1.02-2.44 1.02-1.533 0-2.467.672-1.831 1.318.298.302 15.548.302 15.846 0 .636-.646-.299-1.318-1.83-1.318-1.328 0-1.804-.2-2.44-1.02-.734-.946-.791-1.527-.791-7.94v-6.92h3.386l6.204 8.715 6.203 8.714h12.836c7.059 0 12.938-.104 13.063-.231.607-.617-.29-1.318-1.685-1.318-1.087 0-1.762-.263-2.44-.95-.93-.944-.936-1.007-.936-8.42v-7.47l6.88 6.968c3.785 3.832 6.98 7.361 7.102 7.844.281 1.114-.396 1.948-1.705 2.102-.601.07-1.021.359-1.021.7 0 .498 1.289.597 8.901.686 8.12.095 8.89.047 8.776-.539-.077-.398-.788-.814-1.869-1.092-3.225-.83-5.432-2.583-13.632-10.827l-8.127-8.17 6.791-6.806c6.657-6.672 9.056-8.496 11.175-8.496.516 0 .768-.257.768-.784 0-.76-.195-.78-6.773-.677-5.72.09-6.773.196-6.773.686 0 .37.441.625 1.212.7.666.066 1.415.369 1.664.673.988 1.209-.066 2.687-6.406 8.988-3.483 3.461-6.475 6.293-6.648 6.293-.362 0-.425-12.518-.071-13.861.28-1.062 1.953-2.018 3.53-2.018 1.257 0 1.67-.367 1.229-1.092-.216-.354-2.213-.448-7.888-.369-6.639.092-7.614.184-7.717.731-.091.482.29.672 1.66.828 1.101.127 2.087.519 2.593 1.032.805.817.816 1.026.816 15.631 0 8.143-.123 15.24-.272 15.773-.396 1.41-1.556 1.96-4.23 2.005-2.847.047-5.712-1.072-7.428-2.903-.636-.678-3.132-4.011-5.546-7.407l-4.389-6.176 2.069-.853c2.992-1.235 4.68-2.697 5.715-4.955 1.802-3.928.709-8.666-2.552-11.064-2.88-2.117-4.517-2.399-15.264-2.626-8.549-.18-9.793-.132-9.99.388zm76.8.275c0 .656.249.782 1.543.782 1.13 0 1.795.254 2.48.95l.937.951v15.264c0 14.856-.021 15.291-.791 16.285-.641.828-1.11 1.02-2.48 1.02-1.435 0-1.689.117-1.689.775 0 .76.254.774 14.245.774h14.245l1.437-4.715c.79-2.593 1.524-4.946 1.63-5.228.123-.323-.094-.514-.584-.514-.466 0-.885.34-1.044.85-.643 2.058-2.604 4.628-4.305 5.642-1.687 1.007-2.066 1.067-7.555 1.198-5.462.13-5.824.092-6.583-.678-.787-.8-.802-1.095-.802-15.12 0-8.538.153-14.713.379-15.317.443-1.185 2.407-2.137 4.406-2.137 1.105 0 1.35-.134 1.247-.678-.117-.617-.874-.687-8.422-.782-8.101-.102-8.294-.086-8.294.678zM164.65.95c-.704.715-.104 1.207 1.682 1.381 3.4.332 3.215-.656 3.215 17.145 0 17.758.169 16.83-3.139 17.217-1.32.154-1.847.396-1.94.89-.12.635.757.677 14.15.677h14.277l1.457-4.357a1117.55 1117.55 0 0 1 1.626-4.841c.098-.28-.141-.484-.564-.484-.462 0-1.06.59-1.614 1.59-.484.875-1.4 2.19-2.035 2.925-2.027 2.343-2.899 2.603-9.3 2.772-7.901.208-7.434.769-7.298-8.748l.104-7.254 3.052-.123c4.174-.168 7.653.247 8.597 1.025.431.356 1.003 1.519 1.27 2.584.299 1.195.695 1.937 1.033 1.937.45 0 .566-1.16.652-6.488.099-6.148.067-6.487-.619-6.487-.551 0-.783.375-.972 1.575-.14.89-.652 1.986-1.176 2.518-.898.911-1.108.942-6.487.942h-5.558l.103-7.068.105-7.069 4.066-.112c2.236-.062 5.411.058 7.056.265 3.455.435 4.414 1.206 5.139 4.129.314 1.263.616 1.721 1.135 1.721.655 0 .692-.279.495-3.776-.117-2.076-.278-3.994-.359-4.26-.114-.376-3.255-.484-14.023-.484-7.631 0-13.99.116-14.13.258zM72.434 4.121c2.103 1.146 3.518 3.21 3.73 5.442.265 2.804-.17 4.515-1.552 6.113-1.592 1.84-3.859 2.825-7.147 3.105l-2.66.226v-7.576c0-5.698.12-7.624.478-7.772.262-.107 1.681-.209 3.154-.225 1.924-.023 3.048.171 3.997.687z" fill="#B0B0B0"/></svg>
+                                    </div>
+                                    <div class="cases__info">
+                                        <div class="cases__inner">
+                                            <a class="cases__link" href="#">
+                                                <svg class="cases__swg-arrow" width="20" height="20" viewBox="0 0 20 20" fill="#8D8D8D" xmlns="http://www.w3.org/2000/svg">
+                                                    <path class="cases__path-arrow" d="M19 1.00024L1.00032 19.0002M19 1.00024H1M19 1.00024V19.0002" stroke="#5C5C5C" stroke-width="2" stroke-linejoin="round" fill="#8D8D8D"/>
+                                                </svg>
+                                            </a>
+                                            <div class="cases__subtitle">Программы для ЭВМ и базы данных для Согаз</div>
+                                            <div class="cases__text">Задача: Достаточно ёмкое описание кейса в две строки, позволяющее расскрыть смысл проекта.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cases__box">
+                                    <div class="cases__logo">
+                                        <svg class="cases__swg" width="196" height="39" viewBox="0 0 196 39" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="cases__path-logo" opacity="1" fill-rule="evenodd" clip-rule="evenodd" d="M15.583.152c-1.79.335-5.529 1.812-7.04 2.78C4.594 5.462 1.267 10.62.297 15.713c-.584 3.071-.275 8.49.646 11.316 1.525 4.68 5.66 9.198 9.93 10.848 4.84 1.87 11.915 1.35 15.763-1.159 3.224-2.102 6.849-6.665 6.06-7.63-.324-.396-.952.085-2.905 2.225-1.393 1.527-3.35 3.191-4.439 3.774-1.725.925-2.36 1.041-5.572 1.03-4.265-.014-6.19-.722-8.93-3.286-3.017-2.823-4.43-7.008-4.418-13.084.016-8.23 2.819-14.145 7.749-16.355 5.216-2.338 11.26-.694 14.351 3.904.652.97 1.506 2.62 1.897 3.665.686 1.833 1.292 2.505 1.674 1.855.1-.172-.012-3.098-.25-6.504-.348-4.958-.549-6.215-1.007-6.303-.328-.063-.784.376-1.066 1.026-.272.625-.744 1.234-1.05 1.353-.306.12-1.843-.307-3.415-.946C22.495.296 17.995-.3 15.583.152zm20.605 1.307c0 .614.25.782 1.164.782 1.41 0 3.235.903 3.56 1.76.13.345.236 7.418.236 15.718v15.09l-.936.951c-.686.697-1.35.951-2.48.951-1.295 0-1.544.126-1.544.782 0 .764.194.78 7.917.678 6.738-.089 7.918-.191 7.918-.685 0-.404-.544-.645-1.789-.79-.984-.115-2.143-.534-2.575-.931-.77-.707-.787-1.061-.787-16.112 0-17.628-.146-16.847 3.243-17.338 1.313-.19 1.908-.457 1.908-.853 0-.489-1.21-.592-7.918-.681-7.723-.102-7.917-.086-7.917.678zm17.83-.275c-.32.844.026 1.057 1.711 1.057 1.063 0 1.744.268 2.416.95l.937.951v15.264c0 14.856-.02 15.291-.79 16.285-.637.82-1.114 1.02-2.44 1.02-1.533 0-2.467.672-1.831 1.318.298.302 15.548.302 15.846 0 .636-.646-.299-1.318-1.83-1.318-1.328 0-1.804-.2-2.44-1.02-.734-.946-.791-1.527-.791-7.94v-6.92h3.386l6.204 8.715 6.203 8.714h12.836c7.059 0 12.938-.104 13.063-.231.607-.617-.29-1.318-1.685-1.318-1.087 0-1.762-.263-2.44-.95-.93-.944-.936-1.007-.936-8.42v-7.47l6.88 6.968c3.785 3.832 6.98 7.361 7.102 7.844.281 1.114-.396 1.948-1.705 2.102-.601.07-1.021.359-1.021.7 0 .498 1.289.597 8.901.686 8.12.095 8.89.047 8.776-.539-.077-.398-.788-.814-1.869-1.092-3.225-.83-5.432-2.583-13.632-10.827l-8.127-8.17 6.791-6.806c6.657-6.672 9.056-8.496 11.175-8.496.516 0 .768-.257.768-.784 0-.76-.195-.78-6.773-.677-5.72.09-6.773.196-6.773.686 0 .37.441.625 1.212.7.666.066 1.415.369 1.664.673.988 1.209-.066 2.687-6.406 8.988-3.483 3.461-6.475 6.293-6.648 6.293-.362 0-.425-12.518-.071-13.861.28-1.062 1.953-2.018 3.53-2.018 1.257 0 1.67-.367 1.229-1.092-.216-.354-2.213-.448-7.888-.369-6.639.092-7.614.184-7.717.731-.091.482.29.672 1.66.828 1.101.127 2.087.519 2.593 1.032.805.817.816 1.026.816 15.631 0 8.143-.123 15.24-.272 15.773-.396 1.41-1.556 1.96-4.23 2.005-2.847.047-5.712-1.072-7.428-2.903-.636-.678-3.132-4.011-5.546-7.407l-4.389-6.176 2.069-.853c2.992-1.235 4.68-2.697 5.715-4.955 1.802-3.928.709-8.666-2.552-11.064-2.88-2.117-4.517-2.399-15.264-2.626-8.549-.18-9.793-.132-9.99.388zm76.8.275c0 .656.249.782 1.543.782 1.13 0 1.795.254 2.48.95l.937.951v15.264c0 14.856-.021 15.291-.791 16.285-.641.828-1.11 1.02-2.48 1.02-1.435 0-1.689.117-1.689.775 0 .76.254.774 14.245.774h14.245l1.437-4.715c.79-2.593 1.524-4.946 1.63-5.228.123-.323-.094-.514-.584-.514-.466 0-.885.34-1.044.85-.643 2.058-2.604 4.628-4.305 5.642-1.687 1.007-2.066 1.067-7.555 1.198-5.462.13-5.824.092-6.583-.678-.787-.8-.802-1.095-.802-15.12 0-8.538.153-14.713.379-15.317.443-1.185 2.407-2.137 4.406-2.137 1.105 0 1.35-.134 1.247-.678-.117-.617-.874-.687-8.422-.782-8.101-.102-8.294-.086-8.294.678zM164.65.95c-.704.715-.104 1.207 1.682 1.381 3.4.332 3.215-.656 3.215 17.145 0 17.758.169 16.83-3.139 17.217-1.32.154-1.847.396-1.94.89-.12.635.757.677 14.15.677h14.277l1.457-4.357a1117.55 1117.55 0 0 1 1.626-4.841c.098-.28-.141-.484-.564-.484-.462 0-1.06.59-1.614 1.59-.484.875-1.4 2.19-2.035 2.925-2.027 2.343-2.899 2.603-9.3 2.772-7.901.208-7.434.769-7.298-8.748l.104-7.254 3.052-.123c4.174-.168 7.653.247 8.597 1.025.431.356 1.003 1.519 1.27 2.584.299 1.195.695 1.937 1.033 1.937.45 0 .566-1.16.652-6.488.099-6.148.067-6.487-.619-6.487-.551 0-.783.375-.972 1.575-.14.89-.652 1.986-1.176 2.518-.898.911-1.108.942-6.487.942h-5.558l.103-7.068.105-7.069 4.066-.112c2.236-.062 5.411.058 7.056.265 3.455.435 4.414 1.206 5.139 4.129.314 1.263.616 1.721 1.135 1.721.655 0 .692-.279.495-3.776-.117-2.076-.278-3.994-.359-4.26-.114-.376-3.255-.484-14.023-.484-7.631 0-13.99.116-14.13.258zM72.434 4.121c2.103 1.146 3.518 3.21 3.73 5.442.265 2.804-.17 4.515-1.552 6.113-1.592 1.84-3.859 2.825-7.147 3.105l-2.66.226v-7.576c0-5.698.12-7.624.478-7.772.262-.107 1.681-.209 3.154-.225 1.924-.023 3.048.171 3.997.687z" fill="#B0B0B0"/></svg>
+                                    </div>
+                                    <div class="cases__info">
+                                        <div class="cases__inner">
+                                            <a class="cases__link" href="#">
+                                                <svg class="cases__swg-arrow" width="20" height="20" viewBox="0 0 20 20" fill="#8D8D8D" xmlns="http://www.w3.org/2000/svg">
+                                                    <path class="cases__path-arrow" d="M19 1.00024L1.00032 19.0002M19 1.00024H1M19 1.00024V19.0002" stroke="#5C5C5C" stroke-width="2" stroke-linejoin="round" fill="#8D8D8D"/>
+                                                </svg>
+                                            </a>
+                                            <div class="cases__subtitle">Программы для ЭВМ и базы данных для Согаз</div>
+                                            <div class="cases__text">Задача: Достаточно ёмкое описание кейса в две строки, позволяющее расскрыть смысл проекта.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cases__box">
+                                    <div class="cases__logo">
+                                        <svg class="cases__swg" width="196" height="39" viewBox="0 0 196 39" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="cases__path-logo" opacity="1" fill-rule="evenodd" clip-rule="evenodd" d="M15.583.152c-1.79.335-5.529 1.812-7.04 2.78C4.594 5.462 1.267 10.62.297 15.713c-.584 3.071-.275 8.49.646 11.316 1.525 4.68 5.66 9.198 9.93 10.848 4.84 1.87 11.915 1.35 15.763-1.159 3.224-2.102 6.849-6.665 6.06-7.63-.324-.396-.952.085-2.905 2.225-1.393 1.527-3.35 3.191-4.439 3.774-1.725.925-2.36 1.041-5.572 1.03-4.265-.014-6.19-.722-8.93-3.286-3.017-2.823-4.43-7.008-4.418-13.084.016-8.23 2.819-14.145 7.749-16.355 5.216-2.338 11.26-.694 14.351 3.904.652.97 1.506 2.62 1.897 3.665.686 1.833 1.292 2.505 1.674 1.855.1-.172-.012-3.098-.25-6.504-.348-4.958-.549-6.215-1.007-6.303-.328-.063-.784.376-1.066 1.026-.272.625-.744 1.234-1.05 1.353-.306.12-1.843-.307-3.415-.946C22.495.296 17.995-.3 15.583.152zm20.605 1.307c0 .614.25.782 1.164.782 1.41 0 3.235.903 3.56 1.76.13.345.236 7.418.236 15.718v15.09l-.936.951c-.686.697-1.35.951-2.48.951-1.295 0-1.544.126-1.544.782 0 .764.194.78 7.917.678 6.738-.089 7.918-.191 7.918-.685 0-.404-.544-.645-1.789-.79-.984-.115-2.143-.534-2.575-.931-.77-.707-.787-1.061-.787-16.112 0-17.628-.146-16.847 3.243-17.338 1.313-.19 1.908-.457 1.908-.853 0-.489-1.21-.592-7.918-.681-7.723-.102-7.917-.086-7.917.678zm17.83-.275c-.32.844.026 1.057 1.711 1.057 1.063 0 1.744.268 2.416.95l.937.951v15.264c0 14.856-.02 15.291-.79 16.285-.637.82-1.114 1.02-2.44 1.02-1.533 0-2.467.672-1.831 1.318.298.302 15.548.302 15.846 0 .636-.646-.299-1.318-1.83-1.318-1.328 0-1.804-.2-2.44-1.02-.734-.946-.791-1.527-.791-7.94v-6.92h3.386l6.204 8.715 6.203 8.714h12.836c7.059 0 12.938-.104 13.063-.231.607-.617-.29-1.318-1.685-1.318-1.087 0-1.762-.263-2.44-.95-.93-.944-.936-1.007-.936-8.42v-7.47l6.88 6.968c3.785 3.832 6.98 7.361 7.102 7.844.281 1.114-.396 1.948-1.705 2.102-.601.07-1.021.359-1.021.7 0 .498 1.289.597 8.901.686 8.12.095 8.89.047 8.776-.539-.077-.398-.788-.814-1.869-1.092-3.225-.83-5.432-2.583-13.632-10.827l-8.127-8.17 6.791-6.806c6.657-6.672 9.056-8.496 11.175-8.496.516 0 .768-.257.768-.784 0-.76-.195-.78-6.773-.677-5.72.09-6.773.196-6.773.686 0 .37.441.625 1.212.7.666.066 1.415.369 1.664.673.988 1.209-.066 2.687-6.406 8.988-3.483 3.461-6.475 6.293-6.648 6.293-.362 0-.425-12.518-.071-13.861.28-1.062 1.953-2.018 3.53-2.018 1.257 0 1.67-.367 1.229-1.092-.216-.354-2.213-.448-7.888-.369-6.639.092-7.614.184-7.717.731-.091.482.29.672 1.66.828 1.101.127 2.087.519 2.593 1.032.805.817.816 1.026.816 15.631 0 8.143-.123 15.24-.272 15.773-.396 1.41-1.556 1.96-4.23 2.005-2.847.047-5.712-1.072-7.428-2.903-.636-.678-3.132-4.011-5.546-7.407l-4.389-6.176 2.069-.853c2.992-1.235 4.68-2.697 5.715-4.955 1.802-3.928.709-8.666-2.552-11.064-2.88-2.117-4.517-2.399-15.264-2.626-8.549-.18-9.793-.132-9.99.388zm76.8.275c0 .656.249.782 1.543.782 1.13 0 1.795.254 2.48.95l.937.951v15.264c0 14.856-.021 15.291-.791 16.285-.641.828-1.11 1.02-2.48 1.02-1.435 0-1.689.117-1.689.775 0 .76.254.774 14.245.774h14.245l1.437-4.715c.79-2.593 1.524-4.946 1.63-5.228.123-.323-.094-.514-.584-.514-.466 0-.885.34-1.044.85-.643 2.058-2.604 4.628-4.305 5.642-1.687 1.007-2.066 1.067-7.555 1.198-5.462.13-5.824.092-6.583-.678-.787-.8-.802-1.095-.802-15.12 0-8.538.153-14.713.379-15.317.443-1.185 2.407-2.137 4.406-2.137 1.105 0 1.35-.134 1.247-.678-.117-.617-.874-.687-8.422-.782-8.101-.102-8.294-.086-8.294.678zM164.65.95c-.704.715-.104 1.207 1.682 1.381 3.4.332 3.215-.656 3.215 17.145 0 17.758.169 16.83-3.139 17.217-1.32.154-1.847.396-1.94.89-.12.635.757.677 14.15.677h14.277l1.457-4.357a1117.55 1117.55 0 0 1 1.626-4.841c.098-.28-.141-.484-.564-.484-.462 0-1.06.59-1.614 1.59-.484.875-1.4 2.19-2.035 2.925-2.027 2.343-2.899 2.603-9.3 2.772-7.901.208-7.434.769-7.298-8.748l.104-7.254 3.052-.123c4.174-.168 7.653.247 8.597 1.025.431.356 1.003 1.519 1.27 2.584.299 1.195.695 1.937 1.033 1.937.45 0 .566-1.16.652-6.488.099-6.148.067-6.487-.619-6.487-.551 0-.783.375-.972 1.575-.14.89-.652 1.986-1.176 2.518-.898.911-1.108.942-6.487.942h-5.558l.103-7.068.105-7.069 4.066-.112c2.236-.062 5.411.058 7.056.265 3.455.435 4.414 1.206 5.139 4.129.314 1.263.616 1.721 1.135 1.721.655 0 .692-.279.495-3.776-.117-2.076-.278-3.994-.359-4.26-.114-.376-3.255-.484-14.023-.484-7.631 0-13.99.116-14.13.258zM72.434 4.121c2.103 1.146 3.518 3.21 3.73 5.442.265 2.804-.17 4.515-1.552 6.113-1.592 1.84-3.859 2.825-7.147 3.105l-2.66.226v-7.576c0-5.698.12-7.624.478-7.772.262-.107 1.681-.209 3.154-.225 1.924-.023 3.048.171 3.997.687z" fill="#B0B0B0"/></svg>
+                                    </div>
+                                    <div class="cases__info">
+                                        <div class="cases__inner">
+                                            <a class="cases__link" href="#">
+                                                <svg class="cases__swg-arrow" width="20" height="20" viewBox="0 0 20 20" fill="#8D8D8D" xmlns="http://www.w3.org/2000/svg">
+                                                    <path class="cases__path-arrow" d="M19 1.00024L1.00032 19.0002M19 1.00024H1M19 1.00024V19.0002" stroke="#5C5C5C" stroke-width="2" stroke-linejoin="round" fill="#8D8D8D"/>
+                                                </svg>
+                                            </a>
+                                            <div class="cases__subtitle">Программы для ЭВМ и базы данных для Согаз</div>
+                                            <div class="cases__text">Задача: Достаточно ёмкое описание кейса в две строки, позволяющее расскрыть смысл проекта.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cases__box">
+                                    <div class="cases__logo">
+                                        <svg class="cases__swg" width="196" height="39" viewBox="0 0 196 39" fill="none" xmlns="http://www.w3.org/2000/svg"><path  class="cases__path-logo" opacity="1" fill-rule="evenodd" clip-rule="evenodd" d="M15.583.152c-1.79.335-5.529 1.812-7.04 2.78C4.594 5.462 1.267 10.62.297 15.713c-.584 3.071-.275 8.49.646 11.316 1.525 4.68 5.66 9.198 9.93 10.848 4.84 1.87 11.915 1.35 15.763-1.159 3.224-2.102 6.849-6.665 6.06-7.63-.324-.396-.952.085-2.905 2.225-1.393 1.527-3.35 3.191-4.439 3.774-1.725.925-2.36 1.041-5.572 1.03-4.265-.014-6.19-.722-8.93-3.286-3.017-2.823-4.43-7.008-4.418-13.084.016-8.23 2.819-14.145 7.749-16.355 5.216-2.338 11.26-.694 14.351 3.904.652.97 1.506 2.62 1.897 3.665.686 1.833 1.292 2.505 1.674 1.855.1-.172-.012-3.098-.25-6.504-.348-4.958-.549-6.215-1.007-6.303-.328-.063-.784.376-1.066 1.026-.272.625-.744 1.234-1.05 1.353-.306.12-1.843-.307-3.415-.946C22.495.296 17.995-.3 15.583.152zm20.605 1.307c0 .614.25.782 1.164.782 1.41 0 3.235.903 3.56 1.76.13.345.236 7.418.236 15.718v15.09l-.936.951c-.686.697-1.35.951-2.48.951-1.295 0-1.544.126-1.544.782 0 .764.194.78 7.917.678 6.738-.089 7.918-.191 7.918-.685 0-.404-.544-.645-1.789-.79-.984-.115-2.143-.534-2.575-.931-.77-.707-.787-1.061-.787-16.112 0-17.628-.146-16.847 3.243-17.338 1.313-.19 1.908-.457 1.908-.853 0-.489-1.21-.592-7.918-.681-7.723-.102-7.917-.086-7.917.678zm17.83-.275c-.32.844.026 1.057 1.711 1.057 1.063 0 1.744.268 2.416.95l.937.951v15.264c0 14.856-.02 15.291-.79 16.285-.637.82-1.114 1.02-2.44 1.02-1.533 0-2.467.672-1.831 1.318.298.302 15.548.302 15.846 0 .636-.646-.299-1.318-1.83-1.318-1.328 0-1.804-.2-2.44-1.02-.734-.946-.791-1.527-.791-7.94v-6.92h3.386l6.204 8.715 6.203 8.714h12.836c7.059 0 12.938-.104 13.063-.231.607-.617-.29-1.318-1.685-1.318-1.087 0-1.762-.263-2.44-.95-.93-.944-.936-1.007-.936-8.42v-7.47l6.88 6.968c3.785 3.832 6.98 7.361 7.102 7.844.281 1.114-.396 1.948-1.705 2.102-.601.07-1.021.359-1.021.7 0 .498 1.289.597 8.901.686 8.12.095 8.89.047 8.776-.539-.077-.398-.788-.814-1.869-1.092-3.225-.83-5.432-2.583-13.632-10.827l-8.127-8.17 6.791-6.806c6.657-6.672 9.056-8.496 11.175-8.496.516 0 .768-.257.768-.784 0-.76-.195-.78-6.773-.677-5.72.09-6.773.196-6.773.686 0 .37.441.625 1.212.7.666.066 1.415.369 1.664.673.988 1.209-.066 2.687-6.406 8.988-3.483 3.461-6.475 6.293-6.648 6.293-.362 0-.425-12.518-.071-13.861.28-1.062 1.953-2.018 3.53-2.018 1.257 0 1.67-.367 1.229-1.092-.216-.354-2.213-.448-7.888-.369-6.639.092-7.614.184-7.717.731-.091.482.29.672 1.66.828 1.101.127 2.087.519 2.593 1.032.805.817.816 1.026.816 15.631 0 8.143-.123 15.24-.272 15.773-.396 1.41-1.556 1.96-4.23 2.005-2.847.047-5.712-1.072-7.428-2.903-.636-.678-3.132-4.011-5.546-7.407l-4.389-6.176 2.069-.853c2.992-1.235 4.68-2.697 5.715-4.955 1.802-3.928.709-8.666-2.552-11.064-2.88-2.117-4.517-2.399-15.264-2.626-8.549-.18-9.793-.132-9.99.388zm76.8.275c0 .656.249.782 1.543.782 1.13 0 1.795.254 2.48.95l.937.951v15.264c0 14.856-.021 15.291-.791 16.285-.641.828-1.11 1.02-2.48 1.02-1.435 0-1.689.117-1.689.775 0 .76.254.774 14.245.774h14.245l1.437-4.715c.79-2.593 1.524-4.946 1.63-5.228.123-.323-.094-.514-.584-.514-.466 0-.885.34-1.044.85-.643 2.058-2.604 4.628-4.305 5.642-1.687 1.007-2.066 1.067-7.555 1.198-5.462.13-5.824.092-6.583-.678-.787-.8-.802-1.095-.802-15.12 0-8.538.153-14.713.379-15.317.443-1.185 2.407-2.137 4.406-2.137 1.105 0 1.35-.134 1.247-.678-.117-.617-.874-.687-8.422-.782-8.101-.102-8.294-.086-8.294.678zM164.65.95c-.704.715-.104 1.207 1.682 1.381 3.4.332 3.215-.656 3.215 17.145 0 17.758.169 16.83-3.139 17.217-1.32.154-1.847.396-1.94.89-.12.635.757.677 14.15.677h14.277l1.457-4.357a1117.55 1117.55 0 0 1 1.626-4.841c.098-.28-.141-.484-.564-.484-.462 0-1.06.59-1.614 1.59-.484.875-1.4 2.19-2.035 2.925-2.027 2.343-2.899 2.603-9.3 2.772-7.901.208-7.434.769-7.298-8.748l.104-7.254 3.052-.123c4.174-.168 7.653.247 8.597 1.025.431.356 1.003 1.519 1.27 2.584.299 1.195.695 1.937 1.033 1.937.45 0 .566-1.16.652-6.488.099-6.148.067-6.487-.619-6.487-.551 0-.783.375-.972 1.575-.14.89-.652 1.986-1.176 2.518-.898.911-1.108.942-6.487.942h-5.558l.103-7.068.105-7.069 4.066-.112c2.236-.062 5.411.058 7.056.265 3.455.435 4.414 1.206 5.139 4.129.314 1.263.616 1.721 1.135 1.721.655 0 .692-.279.495-3.776-.117-2.076-.278-3.994-.359-4.26-.114-.376-3.255-.484-14.023-.484-7.631 0-13.99.116-14.13.258zM72.434 4.121c2.103 1.146 3.518 3.21 3.73 5.442.265 2.804-.17 4.515-1.552 6.113-1.592 1.84-3.859 2.825-7.147 3.105l-2.66.226v-7.576c0-5.698.12-7.624.478-7.772.262-.107 1.681-.209 3.154-.225 1.924-.023 3.048.171 3.997.687z" fill="#B0B0B0"/></svg>
+                                    </div>
+                                    <div class="cases__info">
+                                        <div class="cases__inner">
+                                            <a class="cases__link" href="#">
+                                                <svg class="cases__swg-arrow" width="20" height="20" viewBox="0 0 20 20" fill="#8D8D8D" xmlns="http://www.w3.org/2000/svg">
+                                                    <path class="cases__path-arrow" d="M19 1.00024L1.00032 19.0002M19 1.00024H1M19 1.00024V19.0002" stroke="#5C5C5C" stroke-width="2" stroke-linejoin="round" fill="#8D8D8D"/>
+                                                </svg>
+                                            </a>
+                                            <div class="cases__subtitle">Программы для ЭВМ и базы данных для Согаз</div>
+                                            <div class="cases__text">Задача: Достаточно ёмкое описание кейса в две строки, позволяющее расскрыть смысл проекта.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="request">
+                <div class="container">
+                    <div class="request__container">
+                        <div class="request__info">
+                            <div class="request__title title">У вас остались вопросы? Оставьте заявку, мы вам поможем!</div>
+                            <div class="request__text">У нас есть решения для всех ваших потребностей в сфере защиты и регистрации интеллектуальной собственности</div>
+                            <button class="request__button btn-big" id="modalApplicationRequestButton"> <span class="request__span">Оставить заявку на консультацию</span> </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="basement">
+                <div class="container">
+                    <div class="basement__container">
+                        <div class="basement__wrapper-top">
+                            <div class="basement__inner">
+                                <div class="basement__logo">
+                                    <a class="basement__logo-link" href="case.html">
+                                        <img class="basement-icon" src="../images/basement__logo.svg" alt="logo">
+                                        <img class="basement-icon basement-icon-mobile" src="../images/basement__logo-mobile.svg" alt="logo">
+                                    </a>
+                                </div>
+                                <div class="basement__description">Общество с ограниченной
+                                    ответственностью «Центр интеллектуальной собственности и инноваций „АйПиХаб“»</div>
+                            </div>
+                            <div class="basement__info">
+                                <div class="basement__address"> 123317, г. Москва, Пресненская наб., д.
+                                    8, стр. 1, эт. 3, п. 1, оф. 10</div>
+                                <div class="basement__code">
+                                    <div class="basement__inn"><span class="basement__span">ИНН:</span>7703472433</div>
+                                    <div class="basement__kpp"><span class="basement__span">КПП:</span>770301001</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="basement__wrapper-middle">
+                            <nav class="basement__nav">
+                                <div class="basement__box basement__box-navigation">
+                                    <div class="basement__title">Навигация <span class="basement__span">по сайту:</span> </div>
+                                    <ul class="basement__list">
+                                        <li class="basement__item">
+                                            <a class="basement__link" href="../services/services.html">Услуги</a>
+                                        </li>
+                                        <li class="basement__item">
+                                            <a class="basement__link" href="../cases/cases.html">Кейсы</a>
+                                        </li>
+                                        <li class="basement__item">
+                                            <a class="basement__link" href="../faq/faq.html">FAQ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="basement__box basement__box-contacts">
+                                    <div class="basement__title">Наши контакты:</div>
+                                    <ul class="basement__list">
+                                        <li class="basement__item">
+                                            <a class="basement__link" href="#">example@iphub.com</a>
+                                        </li>
+                                        <li class="basement__item">
+                                            <a class="basement__link" href="#">+7 (888) 888 88 88</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="basement__box basement__box-social">
+                                    <div class="basement__title">Мы в соцсетях:</div>
+                                    <ul class="basement__list basement__list-social">
+                                        <li class="basement__item basement__item-facebook">
+                                            <a class="basement__link" href="#">Facebook</a>
+                                        </li>
+                                        <li class="basement__item">
+                                            <a class="basement__link" href="#">Instagram</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="basement__box basement__box-route">
+                                    <div class="basement__title">Как добраться:</div>
+                                    <ul class="basement__list">
+                                        <li class="basement__item">
+                                            <a class="basement__link" href="#">Схема проезда</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="basement__wrapper-bottom">
+                            <div class="basement__privacy">© 2021 IPhub. Все права защищены.</div>
+                            <div class="basement__public">Публичная оферта</div>
+                            <div class="basement__agreement">Пользовательское соглашение</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!--    Заявление-->
+    <div class="modal-application" id="modalApplication">
+        <div class="modal-application__curtain" id="modalApplicationCurtain"></div>
+        <div class="modal-application__container">
+            <div class="modal-application__wrapper">
+                <div class="modal-application__close" id="modalApplicationClose">
+                    <img src="../images/modal-application__close.svg" alt="close">
+                </div>
+                <div class="modal-application__title">Оставьте заявку</div>
+                <div class="modal-application__text text">Укажите свои данные, и наш специалист свяжется с вами</div>
+                <form class="modal-application__form">
+                    <div class="modal-application__inner">
+                        <label class="modal-application__label" for="name">Как к вам обращаться</label>
+                        <input class="modal-application__input" id="name" type="text" placeholder="Алексей Николаевич" name="Name" required>
+                    </div>
+                    <div class="modal-application__inner">
+                        <label class="modal-application__label" for="phone">Номер телефона / WhatsApp</label>
+                        <input class="modal-application__input" id="phone" type="tel" placeholder="+380123456789" name="Phone" required>
+                    </div>
+                    <div class="modal-application__inner">
+                        <label class="modal-application__label" for="email">Почта</label>
+                        <input class="modal-application__input" id="email" type="email" placeholder="AlexIr@mail.ru" name="Phone" required>
+                    </div>
+                    <div class="modal-application__inner">
+                        <label class="modal-application__label" for="message">Запрос</label>
+                        <textarea class="modal-application__textarea" id="message" placeholder="message">Сообщение</textarea>
+                    </div>
+                    <div class="modal-application__inner">
+                        <input class="modal-application__checkbox" id="agreement" type="checkbox" required>
+                        <label class="modal-application__label modal-application__label-agree" for="agreement">Я принимаю соглашение на обработку персональных данных и политику конфиденциальности</label>
+                    </div>
+                    <button class="modal-application__button button">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--    Модальное меню-->
+    <div class="modal" id="modal">
+        <div class="modal__curtain" id="modalCurtain"></div>
+        <div class="modal__container">
+            <div class="modal__close" id="modalClose">
+                <img src="../images/modal-application__close.svg" alt="close">
+            </div>
+            <div class="modal__wrapper">
+                <nav class="modal__nav">
+                    <ul class="modal__list">
+                        <li class="modal__item">
+                            <a class="modal__link" href="../services/services.html">Услуги</a>
+                        </li>
+                        <li class="modal__item">
+                            <a class="modal__link" href="../cases/cases.html">Кейсы</a>
+                        </li>
+                        <li class="modal__item">
+                            <a class="modal__link" href="../faq/faq.html">FAQ</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="modal__content">
+                    <div class="basement__box modal__box">
+                        <div class="basement__title">Наши контакты:</div>
+                        <ul class="basement__list">
+                            <li class="basement__item">
+                                <a class="basement__link" href="#">example@iphub.com</a>
+                            </li>
+                            <li class="basement__item">
+                                <a class="basement__link" href="#">+7 (888) 888 88 88</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="basement__box modal__box">
+                        <div class="basement__title">Мы в соцсетях:</div>
+                        <ul class="basement__list modal__list-social">
+                            <li class="basement__item modal__item-facebook">
+                                <a class="basement__link" href="#">Facebook</a>
+                            </li>
+                            <li class="basement__item">
+                                <a class="basement__link" href="#">Instagram</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="basement__box modal__box modal__box-route">
+                        <div class="basement__title">Как добраться:</div>
+                        <ul class="basement__list">
+                            <li class="basement__item">
+                                <a class="basement__link" href="#">Схема проезда</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class=" modal__box modal__box-info">
+                        <div class="modal__address"> 123317, г. Москва, Пресненская наб., д.
+                            8, стр. 1, эт. 3, п. 1, оф. 10</div>
+                        <div class="modal__code">
+                            <div class="modal__inn">ИНН:7703472433</div>
+                            <div class="modal__kpp">КПП:770301001</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="slick/slick/slick.min.js"></script>
+    <script src="scripts/case.js"></script>
+</body>
+</html>
